@@ -6,7 +6,7 @@ class Solution {
         // first oth element  :
         // first pointer :
         int j =-1;
-        // secound pointer :
+        
         
         for(int i=0;i<n;i++){
              if(nums[i]==0){
@@ -19,7 +19,7 @@ class Solution {
         if(j==-1){
             return ;
         }
-        
+
         // swap the all element in the nums non zero element  :
         for(int i=j;i<n;i++){
             if(nums[i]!=0){
