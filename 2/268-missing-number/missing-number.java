@@ -1,22 +1,25 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        int n = nums.length;
-        // HashSet where used the stored the singal value 
 
-        // HashSet : singal value jab used hota hai tab HashSet used hota hai (like number,password,single integer)(duplicate na hoo)
+        // with using the xor function : 
+        // xor properties : same value zero value and different value those value num
+        // A^A=0 and A^0=A properties 
 
-        // HashMap : jab appko pair me data check karna ho (like naam or number,roll num or nam)
-
-        HashSet<Integer> arr = new HashSet<>();
+       int n = nums.length;
+       // take the o(n):SpaceComplexity 
+        HashSet arr = new HashSet<>();
+        // sare element dall denge : 
         for(int i=0;i<n;i++){
             arr.add(nums[i]);
         }
+
+// arr.contains check karta hai ke ke kya yah elment hashset me hai ke nahi 
         for(int i=0;i<=n;i++){
-         if(!arr.contains(i)){
-            return i;
-         }
+            if(!arr.contains(i)){
+                return i;
+            }
         }
-         return -1;
+           return -1;
         
     }
 }
