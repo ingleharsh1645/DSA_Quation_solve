@@ -1,9 +1,13 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
+        // Better Approaches : 
+    // space complexity : O(N)
+    // Time Complexity : O(N)
         // nums[1,1,2] 
         // created : nums[1,2]
         int n = nums.length;
         // using HashSet used also solve the quation :
+        // 
         LinkedHashSet<Integer> s1 = new LinkedHashSet<>();
         for(int i=0;i<n;i++){
             s1.add(nums[i]);
