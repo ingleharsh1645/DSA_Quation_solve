@@ -1,8 +1,8 @@
 class Solution {
     public int singleNumber(int[] nums) {
         // Better Approaches : 
-        // Time Complexity :
-        // Space Complexity : 
+        // Time Complexity : O(2N)
+        // Space Complexity : O(N)
         // Hashing to solve 
         // using hashing solve the quation :
 
