@@ -1,7 +1,7 @@
 class Solution {
     public int missingNumber(int[] nums) {
         // Optimize Approaches : 
-        // Time Complexity : O(2n)
+        // Time Complexity : O(n)
         // Space Complexity : O(1)
 
      int n = nums.length;
