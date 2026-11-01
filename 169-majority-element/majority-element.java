@@ -26,6 +26,8 @@ class Solution {
 
       // Better Time Complexity : 
       // Creting the HashMap:
+      // Time complexity : O(N)
+      // Space Complexity : O(N)
       int n = nums.length;
 
       HashMap<Integer,Integer> map = new HashMap<>();
