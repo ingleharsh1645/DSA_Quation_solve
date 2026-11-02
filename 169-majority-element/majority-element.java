@@ -5,6 +5,8 @@ class Solution {
       // Optimal Approaches : 
       // Moore's Voting Algorithms :
       // checks with parts :
+      // Time Complexity : O(N)
+      // Space Complexity : O(1)
       
       int count = 0;
       int element=-1;
